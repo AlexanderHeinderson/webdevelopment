@@ -1,0 +1,228 @@
+body {
+    background-color: #808080;
+    font-size: 1.3em;
+    font-family: Calibri, sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    background-image: url("../images/darkgrey.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #808080;
+    text-align: center;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+ul {
+    margin: 0;
+}
+
+li {
+    margin-top: 3px;
+}
+
+img {
+    border: 3px solid black;
+}
+
+section {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+section h2 {
+    color: whitesmoke;
+    text-decoration: underline;
+    margin: 0 0 15px 0;
+}
+
+.info {
+    color: #00FF21;
+    background-color: lightslategray;
+    margin-top: 0;
+
+}
+
+.info ul {
+    list-style: square;
+}
+
+.mail {
+    color: black;
+    text-decoration: none;
+    background-image: url('../images/email.png');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+.mail:hover {
+    border: 1px solid red;
+}
+
+.hobbies {
+    background-color: #8D99AE;
+    color: black;
+}
+
+.hobbies a {
+    color: white;
+}
+
+.hobbies a:visited {
+    color: #EF233C;
+}
+
+.hobbies a:active {
+    color: blue;
+}
+
+.hobbies ul {
+    list-style: none;
+}
+
+.voetbal li {
+    list-style: none;
+    padding-left: 30px;
+    background-image: url("../images/football.png");
+    background-repeat: no-repeat;
+    background-position: left 5px;
+    background-size: 10px;
+}
+
+.tekenen li {
+    list-style: none;
+    padding-left: 30px;
+    background-image: url("../images/pencil.png");
+    background-repeat: no-repeat;
+    background-position: left 5px;
+    background-size: 10px;
+}
+
+.muziek li {
+    list-style: none;
+    padding-left: 30px;
+    background-image: url("../images/note.png");
+    background-repeat: no-repeat;
+    background-position: left 5px;
+    background-size: 10px;
+}
+
+.likes {
+    background-color: #C0C0C0;
+}
+
+.likes_lijst {
+    list-style: none;
+}
+
+.likes_lijst li:first-child {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.likes_lijst a {
+    text-decoration: none;
+    color: black;
+}
+
+.likes_lijst a:hover {
+    background-image: url("../images/link.png");
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: right;
+    padding-right: 20px;
+}
+
+.prognose {
+    background-color: #D8D8D8;
+}
+
+.prognose h2 {
+    color: black;
+}
+
+.prognose th, .prognose td {
+    border: 3px red solid;
+}
+
+.prognose th {
+    background-color: #404040;
+    color: white;
+    padding: 3px 10px;
+    text-decoration: underline dotted;
+}
+
+.prognose td {
+    background-color: #8D99AE;
+    text-align: center;
+}
+
+.prognose td:first-child {
+    font-weight: bold;
+    text-align: left;
+    padding-right: 10px;
+}
+
+
+.vrienden table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+
+.vrienden {
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    background: #fff;
+    overflow: hidden;
+    border: 3px solid #549997;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    padding: 0;
+}
+
+.vrienden table td, .vrienden table th {
+    padding: 8px 10px;
+}
+
+.vrienden table thead th {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3E1199), color-stop(1, #7F1616));
+    background: -moz-linear-gradient(center top, #3E1199 5%, #7F1616 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3E1199', endColorstr='#7F1616');
+    background-color: #3E1199;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+    border-left: 2px solid #36752D;
+}
+
+.vrienden table thead th:first-child {
+    border: none;
+}
+
+.vrienden table tbody td {
+    color: #211454;
+    border-left: 2px solid #C6FFC2;
+    font-size: 13px;
+    border-bottom: 1px solid #02F4D4;
+    font-weight: normal;
+}
+
+.vrienden table tbody .alt td {
+    background: #B35749;
+    color: #FCFCFC;
+}
+
+.vrienden table tbody td:first-child {
+    border-left: none;
+}
+
+.vrienden table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+

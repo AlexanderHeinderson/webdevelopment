@@ -1,0 +1,37 @@
+table{
+    border: 3px solid black;
+    text-align: center;
+}
+h2{
+    margin: 0;
+}
+td{
+    border: 1px dotted black;
+}
+td:first-child{
+    background-color: rgb(255, 220, 220);
+}
+td:last-child{
+    background-color: rgb(255, 220, 220);
+}
+
+.header{
+    background-color: rgb(170,170,200);
+}
+.days{
+    background-color:  rgb(35,37,70);
+    color: rgb(200,190,240);
+}
+.firstweek td:first-child {
+    background-color: grey;
+    color: lightgray;
+}
+.lastweek td:nth-last-child(1), .lastweek td:nth-last-child(2), .lastweek td:nth-last-child(3)  {
+    background-color: grey;
+    color: lightgray;
+}
+.holiday{
+    background-color:  rgb(250,120,120);
+}
+
+
