@@ -1,0 +1,42 @@
+body{
+    background-image: url("../images/background.jpg");
+    text-align: center;
+    font-family: "Aharoni", sans-serif;
+}
+ul{
+    margin: 0;
+}
+li{
+    list-style: none;
+    padding: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+a:hover{
+    background-color: rgb(140, 230, 230, 0.5);
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: underline white;
+}
+section{
+    background-color: rgb(174,174,174,0.25);
+    border-radius: 25px;
+    width: 50%;
+    margin: auto;
+}
+h1{
+    color: white;
+    font-size: 3.5em;
+    text-decoration: underline white;
+}
+h2{
+    background-color: rgb(255,255,255, 0.8);
+    margin-top: 85px;
+    padding: 10px 0;
+}
+.first{
+    border-radius: 25px 25px 0 0;
+}
