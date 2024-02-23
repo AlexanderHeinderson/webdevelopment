@@ -39,4 +39,10 @@ h2{
 }
 .first{
     border-radius: 25px 25px 0 0;
+    margin-top: 5px;
+}
+.semester{
+    color: white;
+    background-color: rgb(0,0,0,0);
+
 }
